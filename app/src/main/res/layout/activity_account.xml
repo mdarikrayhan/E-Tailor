@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AccountActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Measurement"
+        android:textColor="@color/text_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Enter you body measurement in inch"
+        android:textColor="@color/text_color2"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/collar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Collar Size"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+        <EditText
+            android:id="@+id/chest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Chest Size"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+        <EditText
+            android:id="@+id/sleeve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Sleeve Size"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+        <EditText
+            android:id="@+id/waist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Waist Size"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+        <EditText
+            android:id="@+id/insideleg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Inside Leg Size"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+        <EditText
+            android:id="@+id/outsideleg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Outside Leg Size"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+        <EditText
+            android:id="@+id/centreebacklenght"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:drawableRight="@drawable/ic_person"
+            android:ems="10"
+            android:hint="Centree Back Lenght"
+            android:inputType="numberDecimal"
+            android:padding="17dp" />
+
+
+        <Button
+            android:id="@+id/btn_Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_btn"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

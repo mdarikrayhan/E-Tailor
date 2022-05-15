@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E-Tailor</string>
+
+    <string name="menu_my_home">Home</string>
+    <string name="menu_my_orders">My Orders</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="menu_my_tailor">My Tailor</string>
+    <string name="menu_my_info">About</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+    <string name="descriptionCloth">Meaty portobello mushrooms make for the perfect vegetarian burger!</string>
+
+</resources>
